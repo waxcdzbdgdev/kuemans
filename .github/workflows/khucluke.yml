@@ -7,10 +7,10 @@ jobs:
   hello:
     name: ${{ matrix.name }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 360
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix:
         name: [khu-a1, khu-b1, khu-c1, khu-d1, khu-e1, khu-f1, khu-g1, khu-h1, khu-i1, khu-j1]
     steps:
